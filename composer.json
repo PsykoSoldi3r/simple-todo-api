@@ -1,0 +1,20 @@
+{
+    "name": "psykosoldi3r/simple-todo-api",
+    "description": "Simple TODO Api",
+    "authors": [
+        {
+            "name": "Joey Kamsteeg",
+            "email": "joey_kamsteeg@live.nl"
+        }
+    ],
+    "require": {
+    	"slim/slim":"2.6.2",
+    	"doctrine/orm":"2.5.3"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\":"src/App",
+            "Routing\\":"src/Routing"
+        }
+    }
+}
